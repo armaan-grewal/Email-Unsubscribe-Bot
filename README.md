@@ -43,7 +43,7 @@ The workflow is fully automated, from connecting to your inbox to producing a fi
 3. **Run the scraper:**
    - Run:
      ```bash
-     python src/unsubscribe_scraper.py
+     python3 automation.py
      ```
 
 - The script will parse your inbox, extract and clean unsubscribe links, visit them, and save the unique links in `links.txt`.
